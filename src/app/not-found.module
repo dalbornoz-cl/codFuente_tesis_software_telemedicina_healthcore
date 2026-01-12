@@ -1,0 +1,40 @@
+.contenedor_pagina {
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.contenedor_error {
+    width: 50%;
+}
+
+.tarjeta_error {
+    width: 100%;
+    height: 70vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-direction: row-reverse;
+}
+
+.texto_error {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.titulo_error {
+    font-weight: bold;
+    font-size: xx-large;
+}
+
+.descripcion_error {
+    margin: 1em 0;
+}
+
+.boton_inicio {
+    margin-top: 1em;
+    font-size: x-large;
+}
