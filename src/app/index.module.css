@@ -1,0 +1,34 @@
+.input {
+    @apply !border !border-sky-300 bg-white text-gray-600 ring-4 ring-transparent placeholder:text-gray-500 placeholder:opacity-100 focus:!border-sky-500 focus:!border-t-sky-500 focus:ring-sky-100;
+    }  
+.title {
+    @apply text-emerald-700 font-black text-center uppercase;
+}
+.card{
+   /* @apply flex flex-col w-full md:w-3/4 lg:w-4/5 mx-auto my-0 shadow-lg rounded-lg border-solid border-2;*/
+     @apply my-0 shadow-lg rounded-lg border-solid border-2;
+}
+.input_container {
+    @apply grid grid-cols-1 md:grid-cols-2 gap-4 shadow-black;
+}
+.button_container {
+    @apply flex justify-evenly p-2 ;
+}
+
+.summary_container {
+    @apply  border-solid border-2;
+}
+
+.summary_info_container {
+    @apply py-4 mx-4 flex flex-col place-items-start;
+}
+
+.summary_info {
+    @apply flex justify-between w-full;
+}
+.spinner_container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; /* Ajusta esto según tu diseño */
+}
